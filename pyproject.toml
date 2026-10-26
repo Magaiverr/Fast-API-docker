@@ -1,0 +1,17 @@
+[project]
+name = "fast-api-ex5-docker"
+version = "0.1.0"
+description = "API FastAPI containerizada com Docker e Poetry"
+authors = [
+{name = "Murilo Braz"}
+]
+readme = "README.md"
+requires-python = ">=3.14,<3.15"
+dependencies = [
+"fastapi",
+"uvicorn"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
